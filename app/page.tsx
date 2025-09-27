@@ -75,7 +75,7 @@ const participantsData = [
   },
   {
     id: 5,
-    name: "Brian",
+    name: "Bryan",
     superhero: "War Machine",
     color: "#64748B", // Gris metálico
     weeklyParticipation: 4,
@@ -164,41 +164,6 @@ const participantsData = [
       { completed: true, daysEarly: 2 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 1 }],
-    image: "/professional-man-avatar.png",
-  },
-  {
-    id: 11,
-    name: "Fabricio",
-    superhero: "Iron Man",
-    color: "#F59E0B", // Amarillo y rojo metálico
-    weeklyParticipation: 4,
-    avActivities: [
-      { completed: true, daysEarly: 5 },
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 4 },
-    ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 4 },
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 3 },
-    ],
-    image: "/professional-man-avatar.png",
-  },
-  {
-    id: 12,
-    name: "Damien",
-    superhero: "Thor",
-    color: "#94A3B8", // Gris/Plateado
-    weeklyParticipation: 4,
-    avActivities: [
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 1 },
-    ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 1 },
-    ],
     image: "/professional-man-avatar.png",
   },
 ]
