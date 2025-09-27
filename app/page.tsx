@@ -16,7 +16,7 @@ const participantsData = [
     color: "#8B5CF6", // Morado
     weeklyParticipation: 4,
     avActivities: [
-      { completed: true, daysEarly: 5 }
+      { completed: true, daysEarly: 5 },
       { completed: true, daysEarly: 2 },
       { completed: true, daysEarly: 1 },
       { completed: true, daysEarly: 3 },
