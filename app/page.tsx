@@ -14,17 +14,13 @@ const participantsData = [
     name: "Allison",
     superhero: "Hawkeye",
     color: "#8B5CF6", // Morado
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 5 },
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 1 },
       { completed: true, daysEarly: 3 },
+      { completed: true, daysEarly: 5 },
+      { completed: true, daysEarly: 5 },
     ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 1 },
-      { completed: true, daysEarly: 2 },
-    ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-woman-avatar.png",
   },
   {
@@ -32,16 +28,13 @@ const participantsData = [
     name: "Pablo",
     superhero: "Hulk",
     color: "#22C55E", // Verde
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 5 },
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 2 },
-    ],
-    googleSkillsActivities: [
       { completed: true, daysEarly: 4 },
-      { completed: true, daysEarly: 1 },
+      { completed: true, daysEarly: 5 },
+      { completed: true, daysEarly: 5 },
     ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 0 }],
     image: "/professional-man-avatar.png",
   },
   {
@@ -49,15 +42,13 @@ const participantsData = [
     name: "Darwin",
     superhero: "Black Panther",
     color: "#6B21A8", // Negro/Morado oscuro
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 1 },
-      { completed: true, daysEarly: 2 },
+      { completed: true, daysEarly: 4 },
+      { completed: true, daysEarly: 5 },
+      { completed: true, daysEarly: 5 },
     ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 1 },
-    ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-man-avatar.png",
   },
   {
@@ -65,28 +56,27 @@ const participantsData = [
     name: "Isaac",
     superhero: "Falcon",
     color: "#EF4444", // Rojo
-    weeklyParticipation: 3,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 2 },
       { completed: true, daysEarly: 1 },
+      { completed: true, daysEarly: 5 },
+      { completed: true, daysEarly: 5 },
     ],
-    googleSkillsActivities: [{ completed: true, daysEarly: 2 }],
+    googleSkillsActivities: [{ completed: false, daysEarly: 0 }],
     image: "/professional-man-avatar.png",
   },
   {
     id: 5,
-    name: "Brian",
-    superhero: "War Machine",
+    name: "Bryan",
+    superhero: "Ant-Man",
     color: "#64748B", // Gris metálico
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 1 },
+      { completed: true, daysEarly: 4 },
+      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 5 },
     ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 1 },
-    ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 0 }],
     image: "/professional-man-avatar.png",
   },
   {
@@ -94,29 +84,27 @@ const participantsData = [
     name: "Emily",
     superhero: "Black Widow",
     color: "#DC2626", // Rojo oscuro
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 4 },
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 1 },
-    ],
-    googleSkillsActivities: [
       { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 2 },
+      { completed: true, daysEarly: 5 },
+      { completed: true, daysEarly: 0 },
     ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-woman-avatar.png",
   },
   {
     id: 7,
     name: "Julio",
-    superhero: "Dr. Brenner",
+    superhero: "Dr.Strange",
     color: "#EF4444", // Rojo neón
-    weeklyParticipation: 3,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 1 },
-      { completed: true, daysEarly: 2 },
+      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 0 },
     ],
-    googleSkillsActivities: [{ completed: true, daysEarly: 1 }],
+    googleSkillsActivities: [{ completed: true, daysEarly: 0 }],
     image: "/professional-man-avatar.png",
   },
   {
@@ -124,16 +112,13 @@ const participantsData = [
     name: "Carlos",
     superhero: "Capitan America",
     color: "#3B82F6", // Azul
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 2 },
       { completed: true, daysEarly: 4 },
+      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 0 },
     ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 3 },
-    ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-man-avatar.png",
   },
   {
@@ -141,64 +126,27 @@ const participantsData = [
     name: "Esteban",
     superhero: "Spider-Man",
     color: "#DC2626", // Rojo
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
-      { completed: true, daysEarly: 2 },
       { completed: true, daysEarly: 1 },
-      { completed: true, daysEarly: 3 },
+      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 0 },
     ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 1 },
-      { completed: true, daysEarly: 2 },
-    ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-man-avatar.png",
   },
   {
     id: 10,
-    name: "Jacinto",
-    superhero: "Ant-Man",
+    name: "Damian",
+    superhero: "Thor",
     color: "#F59E0B", // Amarillo/Dorado
-    weeklyParticipation: 3,
-    avActivities: [
-      { completed: true, daysEarly: 1 },
-      { completed: true, daysEarly: 2 },
-    ],
-    googleSkillsActivities: [{ completed: true, daysEarly: 1 }],
-    image: "/professional-man-avatar.png",
-  },
-  {
-    id: 11,
-    name: "Fabricio",
-    superhero: "Iron Man",
-    color: "#F59E0B", // Amarillo y rojo metálico
-    weeklyParticipation: 4,
+    weeklyParticipation: 1,
     avActivities: [
       { completed: true, daysEarly: 5 },
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 4 },
+      { completed: true, daysEarly: 5 },
+      { completed: true, daysEarly: 0 },
     ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 4 },
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 3 },
-    ],
-    image: "/professional-man-avatar.png",
-  },
-  {
-    id: 12,
-    name: "Damien",
-    superhero: "Thor",
-    color: "#94A3B8", // Gris/Plateado
-    weeklyParticipation: 4,
-    avActivities: [
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 3 },
-      { completed: true, daysEarly: 1 },
-    ],
-    googleSkillsActivities: [
-      { completed: true, daysEarly: 2 },
-      { completed: true, daysEarly: 1 },
-    ],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-man-avatar.png",
   },
 ]
@@ -259,7 +207,9 @@ export default function MVPPage() {
               El MVP del Módulo 1 será el participante con mayor puntaje de participación.
               <br />
               <span className="text-accent font-semibold">
-                El ganador se llevará un premio especial en la próxima reunión presencial.
+                El ganador se llevará un premio especial en la próxima reunión presencial. Recordar que:Por cada dia
+                que entregues ANTES de la fecha de entrega de la actividad ganas 1 punto (max:5 pts por actividad).
+                ---HAY UN MVP POR CADA MODULO---
               </span>
             </p>
           </div>
