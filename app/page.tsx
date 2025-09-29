@@ -49,7 +49,7 @@ const participantsData = [
       { completed: true, daysEarly: 5 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
-    image: "/professional-man-avatar.png",
+    image: "/darwin.png",
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ const participantsData = [
   {
     id: 7,
     name: "Julio",
-    superhero: "Dr.Strange",
+    superhero: "Thor",
     color: "#EF4444", // Rojo neón
     weeklyParticipation: 1,
     avActivities: [
@@ -105,7 +105,7 @@ const participantsData = [
       { completed: true, daysEarly: 0 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
-    image: "/professional-man-avatar.png",
+    image: "/julio.png",
   },
   {
     id: 8,
@@ -119,7 +119,7 @@ const participantsData = [
       { completed: true, daysEarly: 0 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
-    image: "/professional-man-avatar.png",
+    image: "/carlos.png",
   },
   {
     id: 9,
@@ -138,7 +138,7 @@ const participantsData = [
   {
     id: 10,
     name: "Damian",
-    superhero: "Thor",
+    superhero: "Dr.Strange",
     color: "#F59E0B", // Amarillo/Dorado
     weeklyParticipation: 1,
     avActivities: [
