@@ -21,7 +21,7 @@ const participantsData = [
       { completed: true, daysEarly: 5 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
-    image: "/professional-woman-avatar.png",
+    image: "/allison.png",
   },
   {
     id: 2,
@@ -34,8 +34,8 @@ const participantsData = [
       { completed: true, daysEarly: 5 },
       { completed: true, daysEarly: 5 },
     ],
-    googleSkillsActivities: [{ completed: true, daysEarly: 0 }],
-    image: "/professional-man-avatar.png",
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
+    image: "/pablo.png",
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ const participantsData = [
       { completed: true, daysEarly: 5 },
     ],
     googleSkillsActivities: [{ completed: false, daysEarly: 0 }],
-    image: "/professional-man-avatar.png",
+    image: "/isaac.png",
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ const participantsData = [
     weeklyParticipation: 1,
     avActivities: [
       { completed: true, daysEarly: 4 },
-      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 5 },
       { completed: true, daysEarly: 5 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 0 }],
@@ -91,7 +91,7 @@ const participantsData = [
       { completed: true, daysEarly: 0 },
     ],
     googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
-    image: "/professional-woman-avatar.png",
+    image: "/emily.png",
   },
   {
     id: 7,
@@ -101,10 +101,10 @@ const participantsData = [
     weeklyParticipation: 1,
     avActivities: [
       { completed: true, daysEarly: 0 },
-      { completed: true, daysEarly: 0 },
+      { completed: true, daysEarly: 5 },
       { completed: true, daysEarly: 0 },
     ],
-    googleSkillsActivities: [{ completed: true, daysEarly: 0 }],
+    googleSkillsActivities: [{ completed: true, daysEarly: 5 }],
     image: "/professional-man-avatar.png",
   },
   {
@@ -202,14 +202,13 @@ export default function MVPPage() {
               <h1 className="text-6xl md:text-8xl font-bold neon-text text-accent">MVP</h1>
               <Trophy className="w-12 h-12 text-accent animate-pulse-glow" />
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">MÓDULO 1</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">MÓDULO 1</h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               El MVP del Módulo 1 será el participante con mayor puntaje de participación.
               <br />
               <span className="text-accent font-semibold">
                 El ganador se llevará un premio especial en la próxima reunión presencial. Recordar que:Por cada dia
-                que entregues ANTES de la fecha de entrega de la actividad ganas 1 punto (max:5 pts por actividad).
-                ---HAY UN MVP POR CADA MODULO---
+                que entregues ANTES de la fecha de entrega de la actividad ganas 1 punto (max:5 pts por actividad). HAY UN MVP POR CADA MODULO 
               </span>
             </p>
           </div>
